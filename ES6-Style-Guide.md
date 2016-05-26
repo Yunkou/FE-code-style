@@ -1,4 +1,4 @@
-#  ES6 Style Guide
+# ES6 Style Guide
 
 **用更合理的方式写 JavaScript**
 
