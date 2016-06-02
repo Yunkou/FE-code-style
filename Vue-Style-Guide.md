@@ -4,15 +4,17 @@
 
 ```javascript
 export default {
+  mixins,
   data,
   props,
   store，
   computed，
-  watch,
   route,
   created，
   ready，    // => 生命周期顺序不赘述
   methods,
+  event,
+  watch,
   components
 }
 ```
@@ -49,7 +51,7 @@ export default {
   import myComponentsC from './myComponentsC.vue'
   import myComponentsD from './myComponentsD.vue'
   export default {
-  components: {
+    components: {
   	  myComponentsA,
       myComponentsB,
       myComponentsC,
