@@ -58,5 +58,13 @@ export default {
   }
 ```
 
+### 3 事件
 
+```html
+<!-- bad -->
+<a v-on:click="pass()">pass</a>
 
+<!-- good -->
+<a @:click="pass">pass</a>
+  
+```
