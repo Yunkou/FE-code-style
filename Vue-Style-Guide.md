@@ -33,7 +33,7 @@ export default {
 </template>
 <script>
   import myComponents from './myComponents.vue'
-    
+
   export default {
   components: {
   	  myComponents
@@ -42,8 +42,14 @@ export default {
 </script>
 
 ```
-
-#### 2.2 组件引用
+#### 2.2 Vue组件的书写顺序
+建议：template script style 的顺序书写
+```vue
+<template></template>
+<script></script>
+<style></style>
+```
+#### 2.3 组件引用
 
 ```javascript
   import myComponentsA from './myComponentsA.vue'  
@@ -68,5 +74,5 @@ export default {
 
 <!-- good -->
 <a @:click="pass">pass</a>
-  
+
 ```
