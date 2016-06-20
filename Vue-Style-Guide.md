@@ -73,6 +73,4 @@ export default {
 <a v-on:click="pass()">pass</a>
 
 <!-- good -->
-<a @:click="pass">pass</a>
-
-```
+<a @click="pass">pass</a>
