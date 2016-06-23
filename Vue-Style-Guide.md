@@ -12,10 +12,10 @@ export default {
   route,
   created，
   ready，    // => 生命周期顺序不赘述
-  methods,
   event,
   watch,
-  components
+  components,
+  methods
 }
 ```
 
